@@ -50,7 +50,9 @@ body{
     .presentation{
         width: 70%;
         margin: 0 auto;
+        
     }
+
 }
 
 .presentation h1, h6, p{
@@ -59,9 +61,9 @@ body{
 
 .presentation p{
     font-size: 1.2rem;
-    padding: 1rem 1rem;
-    text-align: center;
-    width: 60%;
+    margin: 1rem 2rem;
+    width: 70%;
+    line-height: 1.7;
 }
 
 .emailBtn{
@@ -92,7 +94,15 @@ body{
 .experienceSection{
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 80%;
+}
+
+@media(min-width: 768px) {
+    .experienceSection{
+        width: 50%;
+        
+    }
+
 }
 
 .experienceList{
