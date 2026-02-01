@@ -1,6 +1,7 @@
 :root{
     --PrimaryColor: #fdfdfb;
     --SecondaryColor: #1c1c1e;
+    --btnTxt: #FFFFFF;
 }
 
 *{
@@ -77,8 +78,8 @@ body{
 
 .emailBtn{
     background-color: var(--SecondaryColor);
-    width: 10rem;
-    height: 3rem;
+    width: 12rem;
+    height: 3.3rem;
     border: none;
     border-radius: 25px;
     margin: 2rem auto;
@@ -86,12 +87,12 @@ body{
 
 .emailBtn a{
     text-decoration: none;
-    color: var(--PrimaryColor);
+    color: var(--btnTxt);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 /*EDUCATION TIMELINE*/
@@ -152,7 +153,7 @@ body{
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 4rem;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 /*PROJECTS*/
